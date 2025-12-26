@@ -1,70 +1,76 @@
-# Getting Started with Create React App
+# Travel Assistant
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A full‑stack travel assistant application that enables real‑time text and audio translation, Integrated object detection to identify surroundings and fetch contextual place information. 
+The project connects a React frontend with powerful backend AI APIs to provide contextual travel insights.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+-Real‑time **text and voice translation**  
+-**Object detection** to identify objects   
+-Connects frontend with backend AI services   
+-Interactive UI built with React  
+-Backend logic to fetch contextual information about places
 
-### `npm start`
+## Project Structure
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+travel‑assistant
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+├── backend/ # Backend REST APIs
 
-### `npm test`
+├── public/ # Static assets
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+├── src/ # Frontend React code
 
-### `npm run build`
+├── .gitignore
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+└── README.md
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Technologies Used
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Frontend --> React.js 
+Backend --> Python
+Database --> MongoDB
+Text Translation --> Google translator
+Audio Translation --> Speech Recognition
+Object Identification --> yolov5
+Fetching Place Information --> Wikipedia
 
-### `npm run eject`
+## Installation & Setup
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+1. Clone the repository
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+git clone https://github.com/suchithra-25/travel-assistant.git
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+cd travel-assistant
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+2. Install Dependencies
+   
+Backend
 
-## Learn More
+cd backend
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+# Example for Python backend
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+pip install -r requirements.txt
 
-### Code Splitting
+Frontend
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+cd ../
 
-### Analyzing the Bundle Size
+npm install
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Running the App
 
-### Making a Progressive Web App
+Backend
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+python app.py
 
-### Advanced Configuration
+Frontend
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+npm start
 
-### Deployment
+Open your browser and go to:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+http://localhost:3000
 
-### `npm run build` fails to minify
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
