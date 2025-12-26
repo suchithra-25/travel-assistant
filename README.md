@@ -27,33 +27,37 @@ travel‑assistant
 
 ## Technologies Used
 
-Frontend --> React.js 
+Frontend --> React.js
+
 Backend --> Python
+
 Database --> MongoDB
-Text Translation --> Google translator
-Audio Translation --> Speech Recognition
-Object Identification --> yolov5
-Fetching Place Information --> Wikipedia
+
+-Text Translation --> Google translator
+
+-Audio Translation --> Speech Recognition
+
+-Object Identification --> yolov5
+
+-Fetching Place Information --> Wikipedia
 
 ## Installation & Setup
 
-1. Clone the repository
+1.Clone the repository
 
 git clone https://github.com/suchithra-25/travel-assistant.git
 
 cd travel-assistant
 
-2. Install Dependencies
+2.Install Dependencies
    
-Backend
+-Backend
 
 cd backend
 
-# Example for Python backend
-
 pip install -r requirements.txt
 
-Frontend
+-Frontend
 
 cd ../
 
@@ -61,15 +65,15 @@ npm install
 
 ## Running the App
 
-Backend
+-Backend
 
 python app.py
 
-Frontend
+-Frontend
 
 npm start
 
-Open your browser and go to:
+-Open your browser and go to:
 
 http://localhost:3000
 
